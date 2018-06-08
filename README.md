@@ -8,7 +8,7 @@ Install via npm:
 
     npm i submodules-install --save
 
-Add an array of strings using glob syntax:
+Add an array of strings using glob syntax to your `package.json`:
 
     "submodules": [
       "my_subdir/*",

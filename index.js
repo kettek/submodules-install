@@ -16,8 +16,8 @@ try {
 }
 
 if (!package.submodules) {
-  console.log("No submodules section defined in package.json, traversing all directories.");
-  package.submodules = ["**"];
+  console.log("No submodules section defined in package.json, please define an array of glob patterns as the "submodules" section.");
+  package.submodules = [];
 }
 
 // Run glob match for our provided globs

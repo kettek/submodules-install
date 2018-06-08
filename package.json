@@ -1,16 +1,28 @@
 {
   "name": "submodules-install",
   "version": "1.0.0",
-  "description": "",
+  "description": "Module for automatically installing defined submodules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./index.js",
-  "keywords": [],
-  "author": "",
+	"homepage": "https://github.com/kettek/submodules-install",
+  "author": {
+    "name": "Ketchetwahmeegwun T. Southall / kts of kettek",
+    "email": "kettek1@kettek.net",
+    "url": "http://kettek.net/"
+  },
   "license": "GPL-3.0",
   "dependencies": {
     "glob": "^7.1.2"
-  }
+  },
+  "keywords": [
+    "submodules-install",
+    "submodule",
+    "submodules",
+    "install",
+    "installer",
+    "glob"
+  ]
 }

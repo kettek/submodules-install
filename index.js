@@ -11,8 +11,8 @@ let package;
 try {
   package = require(package_file);
 } catch (e) {
-  console.err("Error while reading " + package_file);
-  console.err(e);
+  console.error("Error while reading " + package_file);
+  console.error(e);
 }
 
 if (!package.submodules) {

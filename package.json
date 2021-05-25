@@ -1,13 +1,13 @@
 {
   "name": "submodules-install",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module for automatically installing defined submodules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": "./index.js",
-	"homepage": "https://github.com/kettek/submodules-install",
+  "homepage": "https://github.com/kettek/submodules-install",
   "author": {
     "name": "Ketchetwahmeegwun T. Southall / kts of kettek",
     "email": "kettek1@kettek.net",

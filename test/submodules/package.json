@@ -10,10 +10,13 @@
       "path": "yarn"
     },
     "npm",
+    "multi/*",
     {
       "path": "bat",
       "cmd": "bat.bat",
-      "args": ["install"]
+      "args": [
+        "install"
+      ]
     }
   ],
   "keywords": [],

@@ -1,6 +1,6 @@
 {
   "name": "submodules-install",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Module for automatically installing defined submodules",
   "main": "index.js",
   "scripts": {

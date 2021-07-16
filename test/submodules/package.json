@@ -1,0 +1,22 @@
+{
+  "name": "submodules",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "submodules_install": "file:../.."
+  },
+  "submodules": [
+    {
+      "path": "yarn"
+    },
+    "npm",
+    {
+      "path": "bat",
+      "cmd": "bat.bat",
+      "args": ["install"]
+    }
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
